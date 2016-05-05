@@ -5,3 +5,7 @@
 ```
 $ tmux new -d -s sono-slack "/usr/bin/php php-sono-slack/sonos-slack.php"
 ```
+3. To connect back to the tmux session use:
+```
+$ tmux att -t sono-slack
+```
